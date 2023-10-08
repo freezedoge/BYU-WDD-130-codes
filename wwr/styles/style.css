@@ -1,8 +1,7 @@
 #content{
-    max-width: 100%vh;
-    /* max-width: 1600px; */
+    /* max-width: 100%vh; */
+    max-width: 1600px;
     margin: 0 auto;
-    /* text-align: center; */
 }
 :root{
     --primary-color: #344E41; /*Brunswick Green*/
