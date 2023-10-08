@@ -11,3 +11,18 @@ p {
 a {
     font-size: 1.5em;
 }
+body {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+
+nav, footer {
+    text-align: center;
+}
+img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
