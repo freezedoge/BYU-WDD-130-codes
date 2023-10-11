@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.container{
+    height: 100vh;
+}
+.first-half{
+    height: 70vh;
+    width: 100vw;
+}
+.first-half .first-image{
+    box-sizing: border-box;
+    width: 100vw;
+    height: 70vh;
+}
+.second-half{
+    text-align: center;
+    background-color: gray;
+    height: 50vh;
+    width: 100%;
+}
+.images2{   
+    margin: 100px 130px;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    border: 10px solid rgb(69, 68, 68);
+}
