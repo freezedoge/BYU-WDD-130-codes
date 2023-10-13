@@ -12,6 +12,8 @@
 }
 body{
     background-color: var(--bg-color);
+    padding: 0;
+    margin: 0;
 }
 header{
     background-color: var(--primary-color);
@@ -22,14 +24,19 @@ header{
 .logo{
     width: 80px;
 }
+#logo_link{
+    padding-top: 5px;
+}
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 .home-grid section{
     text-align: center;
 }
 .home-title{
     color: var(--text-color1);
+    font-size: 2em;
 }
 h4{
     color: var(--text-color1);
@@ -38,6 +45,7 @@ nav a{
     text-align: center;
     color: white;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover{
     background-color: var(--secondary-color);
@@ -52,31 +60,44 @@ nav a:hover{
 .main section {
     text-align: center;
 }
+.main section img{
+    box-sizing: border-box;
+}
 #background{
     height: 725px;
     background-color: var(--tertiary-color);
 }
 .book, .join{
     text-decoration: none;
+    font-size: 18px;
     color: white;
+    padding: 15px 30px;
     background-color: var(--primary-color);
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color: var(--secondary-color);
     color: var(--text-color1);
 }
 .msg {
+    padding: 35px;
     background-color: var(--tertiary-color);
+    line-height: 1.5em;
 }
 .msg h2{
     color: var(--bg-color);
+    margin: 0;
 }
 .msg p{
     color: var(--bg-color);
+    padding-bottom: 15px;
+    font-size: .8em;
 }
 footer{
     background-color: var(--primary-color);
-    color: var(--bg-color)
+    color: var(--bg-color);
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a{
     color: white;
@@ -90,4 +111,10 @@ footer p{
 }
 footer p a:hover{
     text-decoration: underline;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}   
+.card-img{
+    border: 10px solid var(--text-color1);
 }
