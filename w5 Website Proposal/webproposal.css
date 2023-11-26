@@ -62,7 +62,6 @@ body{
     margin-top: 10rem;
     display: flex;
     justify-content: space-between;
-    border: 2px solid violet;
 }
 .main-text{
     display: flex;
@@ -155,6 +154,7 @@ body{
     width: 600px;
     /* width: fit-content; */
     /* border: 2px solid yellow; */
+    font-size: .8rem;
     display: block;
     color: var(--text-color);
     text-align: center;
@@ -163,7 +163,7 @@ body{
     display: inline-block; 
 }
 .main-text2 h1{ /*All HELLO WORLD TEXT(s) individual line of h1*/
-    font-size: 3em;
+    font-size: 2.5em;
     /* border: 2px solid green; */
 }
 .main-text2 .echo-text{ /*ECHO*/
@@ -183,7 +183,7 @@ body{
 } */
 .text{ /*Animated Typed Texts*/
     color: var(--primary-color);
-    font-size: 4rem;
+    font-size: 3em;
     /* border: 2px solid blue; */
 }
 
@@ -218,12 +218,12 @@ body{
 .container1{
     padding: 20px;
     border: 5px solid var(--text-color);
-    font-size: 1.5rem;
+    font-size: 1rem;
     height: 60%;
     color: var(--text-color);
 }
 .container1 p{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     line-height: 1.5;
 }
 .container1-bottom{
@@ -261,7 +261,7 @@ body{
 }
 .container2 p{
     font-size: 1.5rem;
-    line-height: 1.5;
+    line-height: 1.2;
 }
 .container2-bottom{
     border: 5px solid var(--text-color);
@@ -306,7 +306,7 @@ body{
 }
 .container3 p{
     font-size: 1.5rem;
-    line-height: 1.5;
+    line-height: 1.2;
 }
 .container3-bottom h1{
     margin: 1rem;
