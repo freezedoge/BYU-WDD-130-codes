@@ -375,7 +375,7 @@
     margin-top: 4rem;
 }
     .card {
-        border: 10px solid yellow;
+        /* border: 10px solid yellow; */
         justify-content: center; 
         align-items: center;
         display: flex;
